@@ -1,0 +1,10 @@
+.container{ width: 847px; height: 100vh; /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#8c366c+0,6f64e7+100 */ 
+  background: #8c366c; /* Old browsers */ background: -moz-linear-gradient(left, #8c366c 0%, #6f64e7 100%); /* FF3.6-15 */ 
+  background: -webkit-linear-gradient(left, #8c366c 0%,#6f64e7 100%); /* Chrome10-25,Safari5.1-6 */ 
+  background: linear-gradient(to right, #8c366c 0%,#6f64e7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c366c', endColorstr='#6f64e7',GradientType=1 ); /* IE6-9 */}
+
+.card {
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

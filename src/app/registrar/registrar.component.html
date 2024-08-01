@@ -1,0 +1,35 @@
+<!-- registrar.component.html -->
+<div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="card p-4" style="width: 100%; max-width: 600px;">
+      <h2 class="text-center mb-4">Registrar Nuevo Usuario</h2>
+      <form [formGroup]="registerForm" (ngSubmit)="onRegisterSubmit()">
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" class="form-control" formControlName="nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="apellido">Apellido</label>
+          <input type="text" id="apellido" class="form-control" formControlName="apellido" required>
+        </div>
+        <div class="form-group">
+          <label for="sobrenombre">Nombre de Usuario</label>
+          <input type="text" id="sobrenombre" class="form-control" formControlName="sobrenombre" required>
+        </div>
+        <div class="form-group">
+          <label for="correo">Correo Electrónico</label>
+          <input type="email" id="correo" class="form-control" formControlName="correo" required>
+        </div>
+        <div class="form-group">
+          <label for="contraseña">Contraseña</label>
+          <input type="password" id="contraseña" class="form-control" formControlName="contraseña" required>
+        </div>
+        <div class="form-group">
+          <label for="direccion">Dirección</label>
+          <input type="text" id="direccion" class="form-control" formControlName="direccion" required>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block mt-4">Registrar</button>
+        <button type="button" class="btn btn-secondary btn-block mt-2" (click)="redirectToLogin()">Volver al Login</button>
+      </form>
+    </div>
+  </div>
+  
